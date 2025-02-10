@@ -1,0 +1,6 @@
+dataclasses
+faiss
+numpy
+sqlite3
+dotenv
+openai
