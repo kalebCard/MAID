@@ -29,27 +29,23 @@
 | 🔍 **Buscar en la Web**               | - Usar APIs (ej: Google Search, NewsAPI).                     |  
 | 🖥️ **Ejecutar Código**               | - **Desencriptar** datos necesarios.                          |  
 |                                       | - Detectar lenguaje (Python/JS/Shell) y entorno (local/cloud).|  
-| 🛠️ **Modificar Comportamiento**       | - Ajustar parámetros del agente (ej: tono, prioridades).      |  
 | 🤖 **Crear Subordinado**              | - Iniciar subagente con tarea/especificaciones definidas.     |  
+| 🛠️ **Modificar Comportamiento**       | - Ajustar parámetros del agente (ej: tono, prioridades).      |  
+
 
 ---
 
 ### **4. Validación y Retroalimentación**  
 ▸ **¿Tarea Cumplida?**  
    - **Sí**: Retornar resultado al usuario (ej: respuesta, archivo, confirmación).  
-   - **No**: Reiniciar ciclo con nuevos parámetros (`repetir = true`).  
+   - **No**: Reiniciar ciclo con nuevos parámetros (`repetir = true`)
+
+▸ **Memoria a Corto Plazo**: Guardar contexto inmediato para iteraciones actuales.    
 
 ---
 
-### **5. Aprendizaje y Memoria**  
+### **5. Aprendizaje**  
 ▸ **Resumen de lo Aprendido**: Extraer patrones o datos útiles (ej: nuevo comando, optimización).  
-▸ **Actualizar Memorias**:  
-   - **Corto Plazo**: Guardar contexto inmediato para iteraciones actuales.  
-   - **Largo Plazo**: Almacenar conocimiento permanente (ej: en base de datos vectorial).  
+▸ **Actualizar Memorias a Largo Plazo**: Almacenar conocimiento permanente (En base de datos vectorial).  
 
----
 
-**Diagrama de Flujo Simplificado**:  
-```  
-Usuario → Normalizar → [Sensitive Data?] → Encriptar → Analizar → Buscar Memoria → Planificar → Herramientas → [Éxito?] → Sí/No → Resumir → Actualizar Memoria → Fin  
-```
