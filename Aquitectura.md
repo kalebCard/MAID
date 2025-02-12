@@ -5,10 +5,10 @@
 
 ### **1. Procesamiento Inicial del Prompt**  
 ▸ **Prompt del Usuario**: Recepción de la entrada.  
-▸ **Normalización**: Estandarizar formato (ej: eliminar caracteres especiales, corregir mayúsculas).  
 ▸ **Extraer Información Sensible**:  
    - Identificar datos sensibles (ej: contraseñas, tokens).  
    - **Variables Locales + Encriptación**: Almacenar temporalmente en entorno seguro (ej: AES-256).  
+▸ **Normalización**: Estandarizar formato (ej: eliminar caracteres especiales, corregir mayúsculas).
 
 ---
 
