@@ -24,12 +24,12 @@
 **Memoria Corto Plazo**: Crear contexto temporal para la sesión actual.  
 **Planificación**: Seleccionar herramientas según la intención:  
 
-| **Herramientas Disponibles**          | **Acciones Específicas**                                                            |  
-|---------------------------------------|-------------------------------------------------------------------------------------|  
-| 🔍 **Buscar en la Web**               | - Usar APIs (ej: Google Search, NewsAPI).                                           |  
-| 🖥️ **Ejecutar Código**               | - Desencripta datos necesarios, Detectar lenguaje y ejecuta em entorno (local/cloud).|  
-| 🤖 **Crear Subordinado**              | - Iniciar subagente con tarea/especificaciones definidas.     |  
-| 🛠️ **Modificar Comportamiento**       | - Ajustar parámetros del agente (ej: tono, prioridades).      |  
+| **Herramientas Disponibles**          | **Acciones Específicas**                                                             |  
+|---------------------------------------|--------------------------------------------------------------------------------------|  
+| 🔍 **Buscar en la Web**               | - Usar buscador basado en  open reserch.                                             |  
+| 🖥️ **Ejecutar Código**                | - Desencripta datos necesarios, Detectar lenguaje y ejecuta em entorno (local/cloud).|  
+| 🤖 **Crear Subordinado**              | - Iniciar subagente con tarea/especificaciones definidas.                            |  
+| 🛠️ **Modificar Comportamiento**       | - Ajustar parámetros del agente (ej: tono, prioridades).                             |  
 
 
 ---
