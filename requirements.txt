@@ -1,6 +1,6 @@
 dataclasses
 faiss
 numpy
-sqlite3
+aiosqlite
 dotenv
 openai

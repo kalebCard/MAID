@@ -8,7 +8,7 @@ from models import Models
 from sklearn.preprocessing import normalize
 
 class Memory:
-    def __init__(self, db_path="memory.db", faiss_path="faiss.index", embedding_model="text-embedding-3-small"):
+    def __init__(self, db_path="datab_bases/memory.db", faiss_path="datab_bases/faiss.index", embedding_model="text-embedding-3-small"):
         self.db_path = db_path
         self.faiss_path = faiss_path
         self.embedding_model = embedding_model
